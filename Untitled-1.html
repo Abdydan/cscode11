@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andy Dang ICS4U</title>
+
+    <style type="text/css">
+
+        img {
+                width: 100%;
+        }
+
+        body {
+            background-image: url('https://images.unsplash.com/photo-1483354483454-4cd359948304?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-attachment: fixed;
+            background-size: cover;
+
+            overflow-x: hidden; 
+        }
+
+        h1 {
+                font-size:2vw;
+                text-align: center; 
+                font-family: Verdana;
+                color: rgb(141, 141, 191);
+                margin-bottom:0;
+            }
+        h2  {
+                font-size:1vw;
+                text-align: center; 
+                font-family: Verdana;
+                color: rgb(146, 146, 203);
+                margin-bottom:6em;
+        }
+        h3  {
+                font-size:1.3vw;
+                text-align: left;
+                text-indent: 8em; 
+                font-family: Verdana;
+                color: rgb(105, 105, 105);
+                margin-bottom:0em;
+        }
+        
+        h4 {
+                font-size:4vw;
+                position: absolute;
+                text-align: left; 
+                text-indent: 2.6em;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 600;
+                color: rgb(44, 44, 44);
+                margin-top: 0.5em;
+        }
+
+        h5 {
+                font-size:1.3vw;
+                position: absolute;
+                text-align: left; 
+                font-family: Verdana;
+                margin-right: 35em;
+                margin-left: 8em;
+                margin-top: -27.5em;
+                color: rgb(71, 71, 71);
+        }
+
+        h6 {
+                position: absolute;
+                font-size:1.3vw;
+                text-align: left; 
+                font-family: Verdana;
+                margin-top: -37em;
+                margin-right: 43em;
+                margin-left: 13em;
+                color: rgb(108, 108, 106);
+        }
+
+        h7 {
+                position:absolute;
+                font-size:4vw;
+                text-align: left; 
+                text-indent: 50em;
+                font-family: Verdana;
+                font-weight: 600;
+                color: rgb(44, 44, 44);
+                margin-left: 50%;
+                margin-top: -6em;
+        }
+
+        h8 {
+                position:absolute;
+                font-size:1.3vw;
+                text-align: left; 
+                font-family: Verdana;
+                font-weight: bold;
+                margin-right: 5em;
+                margin-top: -10em;
+                margin-left: 38em;
+                color: rgb(45, 45, 45);
+        }
+
+        h9  {
+                position:absolute;
+                font-size:2vw;
+                text-align: left; 
+                font-family: Verdana;
+                font-weight: bold;
+                position: absolute;
+                margin-right: 22em;
+                margin-top: -12em;
+                margin-left: -10em;
+                color: rgb(39, 120, 147);
+        }
+
+        h10 {
+                position:absolute;
+                font-size:1.3vw;
+                text-align: left; 
+                font-family: Verdana;
+                font-weight: bold;
+                margin-right: 2em;
+                margin-top: -24em;
+                margin-bottom: 6em;
+                margin-left: -30em;
+                color: rgb(45, 45, 45);
+        }
+
+        h11 {
+                font-size:3.3vw;
+                position: absolute;
+                text-align: center; 
+                text-indent: 2.6em;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 600;
+                color: rgb(44, 44, 44);
+                margin-right: 2em;
+                margin-top: -3.2em;
+                margin-left: -11em;
+        }
+
+        h12 {
+                font-size:1.3vw;
+                position: absolute;
+                text-align: center; 
+                font-family: Verdana;
+                margin-right: 29em;
+                margin-left: -7.5em;
+                margin-top: -4.5em;
+                color: rgb(71, 71, 71);
+        }
+
+        h13 {
+                font-size:1.3vw;
+                position: absolute;
+                text-align: left; 
+                font-family: Verdana;
+                margin-right: 32em;
+                margin-left: -30em;
+                margin-top: -1.5em;
+                color: rgb(44, 44, 44);
+        }
+
+        h14 {
+                font-size:3.3vw;
+                position: absolute;
+                text-align: center; 
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 600;
+                margin-left: -3.5em;
+                margin-top: 5em;
+                color: rgb(44, 44, 44);
+        }
+
+        h15 {
+                font-size:1.3vw;
+                position: absolute;
+                text-align: center;
+                font-family: Verdana;
+                margin-left: -19em;
+                margin-top: 5em;
+                color: rgb(71, 71, 71);
+        }
+
+        .paper {
+                width: 37vw;
+                position: relative;
+                top:-30vw;  
+                left: 10%;
+        }
+
+        .me {
+                position: relative;
+                width: 30vw;
+                top: -9vw;
+                right: -60%;
+        }
+
+        .gun {
+                position: relative;
+                width: 30vw;
+                top: -32vw;
+                right: 80%;
+        }
+
+        .gunproto {
+                position: relative;
+                width: 20vw;
+                top: -26vw;
+                right: 100%;
+        }
+
+        .rps {
+                position: relative;
+                width: 33vw;
+                bottom: 1vw;
+                left: 15%;
+        }
+
+
+        </style>
+</head>
+
+
+<body>
+
+    <div> 
+        <h1>Personal Web App </h1>
+        <h2>web page portfolio<br><br>culminating edit</h2>
+        <h3>Hello,</h3>
+        <h4>I'm Andy Dang</h4>
+
+        <div class="me">
+                <img src="assets/me.png"/>
+        </div>
+
+
+        <h5>I am a senior highschool student with no true passion, and zero clue about what direction I want to take in the future, but hey, check this cool website I made ㋡</h5>        
+        
+        <div class="paper">
+                <img src="assets/white-notebook-paper-with-all-edges-ripped-png.png"/>
+        </div>
+
+        <h6>
+                <br>Potential future tech goals: 
+                <br>-build a pc on my own 
+                <br>-make a cool website if I got a business
+                <br>-explore the world of 3D printing
+                <br> & delve deeper into 3D modeling and animation
+                <br>-making videos would be cool
+        </h6>
+                
+        <h7>My Work Section</h7>
+        <h8>Dont have much to show since I do not save any of my projects but here's a cool gun I made on Blender in middle school. Here is a list of my tech experience:
+                <br><br>-I had the opportunity to contribute to the development of a website for our family-owned store. (can't show because we dont have it anymore)
+                <br><br>-In grade 9 computer engineer I work with basic CAD software.
+                <br><br>-For Co-op my friend and I worked with our supervisor to developed and distributed e-blasts to connect with our customer base, as well as advertising our gym to local businesses to collaborate in sponsorships.
+        </p>
+        
+        
+        <h9>"Dominator (Psycho Pass)"</h9>
+
+        <div class="gunproto">
+                <img src="assets/gunprototype.PNG"/>
+        </div>
+
+        <div class="gun">
+                <img src="assets/gun.PNG"/>
+        </div>
+
+        <h10>-I tried learning how to make games on Roblox, Unity and a little bit of Unreal Engine throughout middle school to early highschool. (it was too hard, I gave up)
+                <br><br>-I learned how to do a little Blender action, did not touch animation what so ever, but I am decent at 3D modeling.
+                <br><br>-Last but not least, the most important tech I own which my cousin and I worked together on, is my pc. (he did all the work, but I was there)
+        </h10>
+
+        <h11>Super Duper Original Game</h11>
+        <h12>culminating project</h12>
+
+        <h13>Game: RPS:FWEAL
+                <br><br>Rock-Paper-Scissors with Elements is an extension of the classic game, incorporating five additional elements—Fire, Water, Earth, Air, and Lightning—alongside the traditional Rock, Paper, and Scissors.
+                <br><br>Features: extended choices, score tracking, persistent storage, reset functionality, and dark / light mode.
+                <br><br>Players engage with a user-friendly interface to select their elements, view results, and monitor their scores. 
+                
+        </h13>
+
+        <div class="rps">
+                <img src="assets/rpsfweal.PNG"/>
+        </div>
+
+        <h14>My Contact</h11>
+
+        <h15>andy.nguyendang@student.tdsb.on.ca
+                <br><br>2024-06-14<br><br><br><br><br><br>
+        </h15>
+
+    </div>
+</body>
+
+</html>
